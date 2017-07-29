@@ -1,0 +1,14 @@
+[
+  {
+    "name" : "Trang chủ",
+    "link" : "/",
+    "controller": "HomeCtrl",
+    "templateUrl" : "/pages/_home.html"
+  },
+  {
+    "name" : "Danh sách sản phẩm",
+    "link" : "/list-pro",
+    "controller": "ProductsCtrl",
+    "templateUrl" : "pages/products/_product.list.html"
+  }
+]
