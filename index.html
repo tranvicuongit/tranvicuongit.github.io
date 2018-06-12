@@ -35,6 +35,8 @@
 	<footer ng-include="'pages/menu/_footer.html'">
 	</footer>
     <!-- End of footer -->
+	
+	<div class='post-footer'></div>
 
     <!-- JS Links -->
     <script type="text/javascript" src="/assets/libs_modules/jquery/jquery-3.2.1.min.js"></script>
@@ -51,5 +53,40 @@
     <script type="text/javascript" src="/assets/libs_modules/sweetalert2/sweetalert2.min.js"></script>
     <script type="text/javascript" src="/assets/js/app.js"></script>
     <script type="text/javascript" src="/assets/js/main.min.js"></script>
+	
+	<!-- Review Star Rating In Google Search Results -->
+<script type='application/ld+json'>
+{
+    "@context":"http://schema.org",
+    "@type":"Review",
+    "author": {
+        "@type":"Person",
+        "name":"Tran Vi Cuong",
+        "sameAs":"https://plus.google.com/117941316463919773155"
+    },
+    "url": "https://tranvicuongit.github.io/",
+    "datePublished":"2016-03-13T20:00",
+    "publisher": {
+        "@type":"Organization",
+        "name":"Trần Vi Cường",
+        "sameAs":"https://tranvicuongit.github.io/"
+    },
+    "description":"Chào mừng bạn đến với website của tôi!",
+    "inLanguage":"vi",
+    "itemReviewed": {
+    "@type":"Product",
+    "name": "Tran Vi Cuong on Github",
+    "sameAs": "https://tranvicuongit.github.io/",
+    "image": "https://tranvicuongit.github.io/assets/images/icons/logo.jpg",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "bestRating": "5",
+        "ratingCount": "2"
+        }
+    }
+}
+</script> 
+<!-- Review Star Rating In Google Search Results -->
 </body>
 </html>
